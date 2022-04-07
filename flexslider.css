@@ -1,0 +1,197 @@
+
+* {
+    position: relative;
+    padding: 0;
+   width: 100%; 
+   
+  
+    
+}
+
+
+.flexslider {
+    
+    width: 100%;
+    margin-top:  80px;
+    padding: 0px;
+    
+    align-items: center;
+
+    
+}
+
+
+
+.slides {
+    width: 100%;
+    height: calc(100vh - 200px);
+    
+    display: flex;
+    
+       
+}
+
+.slides img {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+/* los puntos o numeros 1 y 2 para pasar las imagenes de los slides*/
+
+
+.flex-control-nav {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    
+}
+
+.flex-control-nav {
+    width: 100%;
+    text-align: center;
+    
+    
+    
+}
+
+.flex-control-nav li {
+    text-align: center;
+    display: inline;
+    margin: 0 6px;
+    
+    
+}
+
+.flex-control-nav li a {
+    
+ display: inline-block;
+ text-align: center;
+background: #777777;
+width: 12px;
+height: 12px;
+border-radius: 12px;
+text-indent: -9999px;
+text-align: center;
+
+}
+.flex-control-nav li a:hover {
+  background: #2E2E2E;
+}
+.flex-control-nav li a.flex-active {
+    background: #2E2E2E;
+  }
+
+.flex-direction-nav {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 20px;
+    list-style: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.flex-direction-nav .flex-nav-next {
+left: 1300px;
+color: black;
+list-style: none;
+text-transform: uppercase;
+}
+
+ 
+
+.texto-uno {
+
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: -350px;
+
+       
+}
+
+.slides .texto-uno h1 {
+    color:blue;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px 200px;
+    
+}
+
+.slides .texto-uno p {
+    color:#2E2E2E;
+    font-size: 55px;
+    padding: 30px 200px;
+    
+}
+
+.solicitalo {
+    background:darkslategray;
+    width: 200px;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 20px 200px;
+       
+}
+
+.texto-dos {
+
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: -350px;
+    
+
+       
+}   
+  
+.texto-dos p {
+    color:#2E2E2E;
+    font-size: 60px;
+    padding: 40px 200px;
+    
+    
+}    
+    
+.paga {
+    background:darkslategray;
+    width: 250px;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 20px 200px;
+       
+}
+
+
+@media(max-width:768px){
+
+    .flexslider {
+        display: none;
+        
+
+    }
+    
+    
+}
